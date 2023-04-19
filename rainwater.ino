@@ -1,19 +1,15 @@
-#define BLYNK_TEMPLATE_ID "TMPL3LR3kMsSp"
-#define BLYNK_TEMPLATE_NAME "tt"
-#define BLYNK_AUTH_TOKEN "q5cg2y2R-MYkSXAIieZ8niCs0jhiAIAD"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
 
-// #define BLYNK_TEMPLATE_ID "TMPL3eXEpGuXy"
-// #define BLYNK_TEMPLATE_NAME "test"
-// #define BLYNK_AUTH_TOKEN ""
-
-char auth[] = "q5cg2y2R-MYkSXAIieZ8niCs0jhiAIAD";//Enter your Auth token
-char ssid[] = "Vedant";//Enter your WIFI name
-char pass[] = "9702547918";//Enter your WIFI password
+char auth[] = "";//Enter your Auth token
+char ssid[] = "";//Enter your WIFI name
+char pass[] = "";//Enter your WIFI password
 
 BlynkTimer timer;
 
